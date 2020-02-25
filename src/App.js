@@ -4,11 +4,8 @@ import { Route, Switch, Redirect, Router } from 'react-router-dom'
 import './App.css';
 import GroupChat from './layout_body/GroupChat';
 import MessengerAction from './layout_body/MessengerAction';
-<<<<<<< HEAD
 import axios from 'axios';
-=======
 import Login from './layout_body/Login'
->>>>>>> Create Login Form
 
 axios.defaults.baseURL = "http://muotphim.top/";
 function App() {
